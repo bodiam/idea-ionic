@@ -1,0 +1,9 @@
+<templateSet group="Ionic">
+    <template name="ion-header:light" value="&lt;div class=&quot;bar bar-header bar-light&quot;&gt;&#10;  &lt;h1 class=&quot;title&quot;&gt;$title$&lt;/h1&gt;&#10;&lt;/div&gt;$END$" description="Header which is fixed at top of the screen (light)" toReformat="true" toShortenFQNames="false">
+        <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="HTML_TEXT" value="true" />
+            <option name="HTML" value="true" />
+        </context>
+    </template>
+</templateSet>
