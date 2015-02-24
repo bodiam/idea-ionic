@@ -1,9 +1,583 @@
 <templateSet group="Ionic">
     <template name="ion-header:light" value="&lt;div class=&quot;bar bar-header bar-light&quot;&gt;&#10;  &lt;h1 class=&quot;title&quot;&gt;$title$&lt;/h1&gt;&#10;&lt;/div&gt;$END$" description="Header which is fixed at top of the screen (light)" toReformat="true" toShortenFQNames="false">
-        <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
-        <context>
-            <option name="HTML_TEXT" value="true" />
-            <option name="HTML" value="true" />
-        </context>
-    </template>
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-header:stable" value="&lt;div class=&quot;bar bar-header bar-stable&quot;&gt;&#10;  &lt;h1 class=&quot;title&quot;&gt;$title$&lt;/h1&gt;&#10;&lt;/div&gt;$END$" description="Header which is fixed at top of the screen (stable)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-header:positive" value="&lt;div class=&quot;bar bar-header bar-positive&quot;&gt;&#10;  &lt;h1 class=&quot;title&quot;&gt;$title$&lt;/h1&gt;&#10;&lt;/div&gt;$END$" description="Header which is fixed at top of the screen (positive)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-header:calm" value="&lt;div class=&quot;bar bar-header bar-calm&quot;&gt;&#10;  &lt;h1 class=&quot;title&quot;&gt;$title$&lt;/h1&gt;&#10;&lt;/div&gt;$END$" description="Header which is fixed at top of the screen (calm)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-header:balanced" value="&lt;div class=&quot;bar bar-header bar-balanced&quot;&gt;&#10;  &lt;h1 class=&quot;title&quot;&gt;$title$&lt;/h1&gt;&#10;&lt;/div&gt;$END$" description="Header which is fixed at top of the screen (balanced)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-header:energized" value="&lt;div class=&quot;bar bar-header bar-energized&quot;&gt;&#10;  &lt;h1 class=&quot;title&quot;&gt;$title$&lt;/h1&gt;&#10;&lt;/div&gt;$END$" description="Header which is fixed at top of the screen (energized)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-header:assertive" value="&lt;div class=&quot;bar bar-header bar-assertive&quot;&gt;&#10;  &lt;h1 class=&quot;title&quot;&gt;$title$&lt;/h1&gt;&#10;&lt;/div&gt;$END$" description="Header which is fixed at top of the screen (assertive)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-header:royal" value="&lt;div class=&quot;bar bar-header bar-royal&quot;&gt;&#10;  &lt;h1 class=&quot;title&quot;&gt;$title$&lt;/h1&gt;&#10;&lt;/div&gt;$END$" description="Header which is fixed at top of the screen (royal)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-header:dark" value="&lt;div class=&quot;bar bar-header bar-dark&quot;&gt;&#10;  &lt;h1 class=&quot;title&quot;&gt;$title$&lt;/h1&gt;&#10;&lt;/div&gt;$END$" description="Header which is fixed at top of the screen (dark)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-subheader" value="&lt;div class=&quot;bar bar-subheader&quot;&gt;&#10;  &lt;h2 class=&quot;title&quot;&gt;Sub Header&lt;/h2&gt;&#10;&lt;/div&gt;$END$" description="A secondary header bar can be placed below the original header bar." toReformat="true" toShortenFQNames="false">
+                
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-footer:light" value="&lt;div class=&quot;bar bar-footer bar-light&quot;&gt;&#10;  &lt;div class=&quot;title&quot;&gt;$title$&lt;/div&gt;&#10;&lt;/div&gt;$END$" description="Footers are regions at the bottom of a screen that can contain various types of content. (light)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-footer:stable" value="&lt;div class=&quot;bar bar-footer bar-stable&quot;&gt;&#10;  &lt;div class=&quot;title&quot;&gt;$title$&lt;/div&gt;&#10;&lt;/div&gt;$END$" description="Footers are regions at the bottom of a screen that can contain various types of content. (stable)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-footer:positive" value="&lt;div class=&quot;bar bar-footer bar-positive&quot;&gt;&#10;  &lt;div class=&quot;title&quot;&gt;$title$&lt;/div&gt;&#10;&lt;/div&gt;$END$" description="Footers are regions at the bottom of a screen that can contain various types of content. (positive)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-footer:calm" value="&lt;div class=&quot;bar bar-footer bar-calm&quot;&gt;&#10;  &lt;div class=&quot;title&quot;&gt;$title$&lt;/div&gt;&#10;&lt;/div&gt;$END$" description="Footers are regions at the bottom of a screen that can contain various types of content. (calm)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-footer:balanced" value="&lt;div class=&quot;bar bar-footer bar-balanced&quot;&gt;&#10;  &lt;div class=&quot;title&quot;&gt;$title$&lt;/div&gt;&#10;&lt;/div&gt;$END$" description="Footers are regions at the bottom of a screen that can contain various types of content. (balanced)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-footer:energized" value="&lt;div class=&quot;bar bar-footer bar-energized&quot;&gt;&#10;  &lt;div class=&quot;title&quot;&gt;$title$&lt;/div&gt;&#10;&lt;/div&gt;$END$" description="Footers are regions at the bottom of a screen that can contain various types of content. (energized)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-footer:assertive" value="&lt;div class=&quot;bar bar-footer bar-assertive&quot;&gt;&#10;  &lt;div class=&quot;title&quot;&gt;$title$&lt;/div&gt;&#10;&lt;/div&gt;$END$" description="Footers are regions at the bottom of a screen that can contain various types of content. (assertive)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-footer:royal" value="&lt;div class=&quot;bar bar-footer bar-royal&quot;&gt;&#10;  &lt;div class=&quot;title&quot;&gt;$title$&lt;/div&gt;&#10;&lt;/div&gt;$END$" description="Footers are regions at the bottom of a screen that can contain various types of content. (royal)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-footer:dark" value="&lt;div class=&quot;bar bar-footer bar-dark&quot;&gt;&#10;  &lt;div class=&quot;title&quot;&gt;$title$&lt;/div&gt;&#10;&lt;/div&gt;$END$" description="Footers are regions at the bottom of a screen that can contain various types of content. (dark)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-button" value="&lt;button class=&quot;button&quot;&gt;&#10;  Default&#10;&lt;/button&gt;$END$" description="It's a button" toReformat="true" toShortenFQNames="false">
+                
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-button:light" value="&lt;button class=&quot;button button-light&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button (light)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-button:stable" value="&lt;button class=&quot;button button-stable&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button (stable)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-button:positive" value="&lt;button class=&quot;button button-positive&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button (positive)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-button:calm" value="&lt;button class=&quot;button button-calm&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button (calm)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-button:balanced" value="&lt;button class=&quot;button button-balanced&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button (balanced)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-button:energized" value="&lt;button class=&quot;button button-energized&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button (energized)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-button:assertive" value="&lt;button class=&quot;button button-assertive&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button (assertive)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-button:royal" value="&lt;button class=&quot;button button-royal&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button (royal)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-button:dark" value="&lt;button class=&quot;button button-dark&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button (dark)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-block-button:light" value="&lt;button class=&quot;button button-block button-light&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button with display:block style (light)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-block-button:stable" value="&lt;button class=&quot;button button-block button-stable&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button with display:block style (stable)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-block-button:positive" value="&lt;button class=&quot;button button-block button-positive&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button with display:block style (positive)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-block-button:calm" value="&lt;button class=&quot;button button-block button-calm&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button with display:block style (calm)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-block-button:balanced" value="&lt;button class=&quot;button button-block button-balanced&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button with display:block style (balanced)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-block-button:energized" value="&lt;button class=&quot;button button-block button-energized&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button with display:block style (energized)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-block-button:assertive" value="&lt;button class=&quot;button button-block button-assertive&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button with display:block style (assertive)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-block-button:royal" value="&lt;button class=&quot;button button-block button-royal&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button with display:block style (royal)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-block-button:dark" value="&lt;button class=&quot;button button-block button-dark&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button with display:block style (dark)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-full-width-block-button:light" value="&lt;button class=&quot;button button-full button-light&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button with display:block style without borders (light)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-full-width-block-button:stable" value="&lt;button class=&quot;button button-full button-stable&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button with display:block style without borders (stable)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-full-width-block-button:positive" value="&lt;button class=&quot;button button-full button-positive&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button with display:block style without borders (positive)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-full-width-block-button:calm" value="&lt;button class=&quot;button button-full button-calm&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button with display:block style without borders (calm)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-full-width-block-button:balanced" value="&lt;button class=&quot;button button-full button-balanced&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button with display:block style without borders (balanced)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-full-width-block-button:energized" value="&lt;button class=&quot;button button-full button-energized&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button with display:block style without borders (energized)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-full-width-block-button:assertive" value="&lt;button class=&quot;button button-full button-assertive&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button with display:block style without borders (assertive)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-full-width-block-button:royal" value="&lt;button class=&quot;button button-full button-royal&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button with display:block style without borders (royal)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-full-width-block-button:dark" value="&lt;button class=&quot;button button-full button-dark&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button with display:block style without borders (dark)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-small-button:light" value="&lt;button class=&quot;button button-small button-light&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A smaller button (light)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-small-button:stable" value="&lt;button class=&quot;button button-small button-stable&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A smaller button (stable)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-small-button:positive" value="&lt;button class=&quot;button button-small button-positive&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A smaller button (positive)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-small-button:calm" value="&lt;button class=&quot;button button-small button-calm&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A smaller button (calm)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-small-button:balanced" value="&lt;button class=&quot;button button-small button-balanced&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A smaller button (balanced)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-small-button:energized" value="&lt;button class=&quot;button button-small button-energized&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A smaller button (energized)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-small-button:assertive" value="&lt;button class=&quot;button button-small button-assertive&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A smaller button (assertive)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-small-button:royal" value="&lt;button class=&quot;button button-small button-royal&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A smaller button (royal)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-small-button:dark" value="&lt;button class=&quot;button button-small button-dark&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A smaller button (dark)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-big-button:light" value="&lt;button class=&quot;button button-large button-light&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A larger button (light)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-big-button:stable" value="&lt;button class=&quot;button button-large button-stable&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A larger button (stable)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-big-button:positive" value="&lt;button class=&quot;button button-large button-positive&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A larger button (positive)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-big-button:calm" value="&lt;button class=&quot;button button-large button-calm&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A larger button (calm)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-big-button:balanced" value="&lt;button class=&quot;button button-large button-balanced&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A larger button (balanced)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-big-button:energized" value="&lt;button class=&quot;button button-large button-energized&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A larger button (energized)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-big-button:assertive" value="&lt;button class=&quot;button button-large button-assertive&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A larger button (assertive)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-big-button:royal" value="&lt;button class=&quot;button button-large button-royal&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A larger button (royal)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-big-button:dark" value="&lt;button class=&quot;button button-large button-dark&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A larger button (dark)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-outline-button:light" value="&lt;button class=&quot;button button-outline button-light&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button with outline style, which also has a transparent background (light)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-outline-button:stable" value="&lt;button class=&quot;button button-outline button-stable&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button with outline style, which also has a transparent background (stable)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-outline-button:positive" value="&lt;button class=&quot;button button-outline button-positive&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button with outline style, which also has a transparent background (positive)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-outline-button:calm" value="&lt;button class=&quot;button button-outline button-calm&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button with outline style, which also has a transparent background (calm)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-outline-button:balanced" value="&lt;button class=&quot;button button-outline button-balanced&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button with outline style, which also has a transparent background (balanced)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-outline-button:energized" value="&lt;button class=&quot;button button-outline button-energized&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button with outline style, which also has a transparent background (energized)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-outline-button:assertive" value="&lt;button class=&quot;button button-outline button-assertive&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button with outline style, which also has a transparent background (assertive)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-outline-button:royal" value="&lt;button class=&quot;button button-outline button-royal&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button with outline style, which also has a transparent background (royal)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-outline-button:dark" value="&lt;button class=&quot;button button-outline button-dark&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button with outline style, which also has a transparent background (dark)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-clear-button:light" value="&lt;button class=&quot;button button-clear button-light&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button without border (light)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-clear-button:stable" value="&lt;button class=&quot;button button-clear button-stable&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button without border (stable)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-clear-button:positive" value="&lt;button class=&quot;button button-clear button-positive&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button without border (positive)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-clear-button:calm" value="&lt;button class=&quot;button button-clear button-calm&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button without border (calm)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-clear-button:balanced" value="&lt;button class=&quot;button button-clear button-balanced&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button without border (balanced)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-clear-button:energized" value="&lt;button class=&quot;button button-clear button-energized&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button without border (energized)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-clear-button:assertive" value="&lt;button class=&quot;button button-clear button-assertive&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button without border (assertive)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-clear-button:royal" value="&lt;button class=&quot;button button-clear button-royal&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button without border (royal)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
+<template name="ion-clear-button:dark" value="&lt;button class=&quot;button button-clear button-dark&quot;&gt;&#10;  $title$&#10;&lt;/button&gt;$END$" description="A button without border (dark)" toReformat="true" toShortenFQNames="false">
+                <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+                <context>
+                    <option name="HTML_TEXT" value="true" />
+                    <option name="HTML" value="true" />
+                </context>
+            </template>
 </templateSet>

@@ -5,7 +5,8 @@
     <vendor email="erik.pragt@jworks.nl" url="http://www.jworks.nl">Jworks</vendor>
 
     <description><![CDATA[
-      <h2>Ionic Framework live templates / snippets</h2>
+      <p><a href="http://ionicframework.com/">Ionic Framework</a> support for IntelliJ platform.<p>
+      <p>Ionic makes it incredibly easy to build beautiful and interactive mobile apps using HTML5 and AngularJS.
       <br />
       <p><a href="https://github.com/bodiam/idea-ionic">Documentation / list of snippets</a></p>
       <p>Follow me on Twitter: <a href="https://twitter.com/epragt"><b>@epragt</b></a></p>
