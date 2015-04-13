@@ -19,7 +19,7 @@ To install the plugin open your editor (IntelliJ) and hit:
 
 ### Usage
 
-To use the plugin, open an editor, and start typing `ion-`, followed by pressing CMD+J. A list of templates will show up. Alternatively, you can type e.g. `alert`, followed by CMD+J, to immediately show only the alert templates.
+To use the plugin, open an HTML file in the editor, and start typing `ion-`, followed by pressing CMD+J. A list of templates will show up. Alternatively, you can type e.g. `alert`, followed by CMD+J, to immediately show only the alert templates.
 
 ## What's new
 
